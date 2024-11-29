@@ -1,13 +1,12 @@
 import Header from "../components/Header"
-import PokemonList from "../components/PokemonList"
 
 const Home = () => {
-  return (
-    <div>
-      <Header />
-      <PokemonList />
-    </div>
-  )
+    return (
+        <div>
+            <Header />
+            <h1 className="text-2xl font-bold p-20 text-center">Home</h1>
+        </div>
+    )
 }
 
 export default Home
