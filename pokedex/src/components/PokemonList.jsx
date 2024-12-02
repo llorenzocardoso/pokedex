@@ -80,7 +80,7 @@ const PokemonList = () => {
                     <li
                         key={pokemon.id}
                         className="p-3.5 bg-blue-200 rounded-xl shadow-xl hover:bg-gray-200 transition relative"
-                        onClick={(e) => e.stopPropagation()} // Evita fechar ao clicar no menu
+                        onClick={(e) => e.stopPropagation()} 
                     >
                         <div className="flex justify-between items-center">
                             <p className="font-bold text-xl">{pokemon.id}</p>
