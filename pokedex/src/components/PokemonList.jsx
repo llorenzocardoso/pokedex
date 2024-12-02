@@ -9,8 +9,11 @@ const PokemonList = () => {
     const [pokemonList, setPokemonList] = useState([]);
     const [newPokemon, setNewPokemon] = useState({ name: "", id: "", sprites: { front_default: "" } });
     const [errors, setErrors] = useState({});
-    const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedPokemonId, setSelectedPokemonId] = useState(null);
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isEditModalOpen, setIsEditModalOpen] = useState(false);
+    const [pokemonToEdit, setPokemonToEdit] = useState(null);
 
     useEffect(() => {
         setPokemonList(pokemons);
@@ -37,15 +40,9 @@ const PokemonList = () => {
         }
     };
 
-    const handleUpdatePokemon = (id) => {
-        const updatedName = prompt("Digite o novo nome do Pokémon:");
-        if (updatedName) {
-            setPokemonList(
-                pokemonList.map((pokemon) =>
-                    pokemon.id === id ? { ...pokemon, name: updatedName } : pokemon
-                )
-            );
-        }
+    const handleUpdatePokemon = (pokemon) => {
+        setPokemonToEdit(pokemon);
+        setIsEditModalOpen(true);
     };
 
     const handleDeletePokemon = (id) => {
@@ -97,7 +94,7 @@ const PokemonList = () => {
                             <div className="absolute top-2 right-2">
                                 <button
                                     onClick={(e) => {
-                                        e.stopPropagation(); // Evita fechar ao clicar no botão
+                                        e.stopPropagation();
                                         setSelectedPokemonId(selectedPokemonId === pokemon.id ? null : pokemon.id);
                                     }}
                                     className="text-gray-500 hover:text-gray-800"
@@ -107,11 +104,56 @@ const PokemonList = () => {
                                 {selectedPokemonId === pokemon.id && (
                                     <div className="absolute right-0 mt-2 bg-white shadow-lg rounded w-40 z-10">
                                         <button
-                                            onClick={() => handleUpdatePokemon(pokemon.id)}
+                                            onClick={() => handleUpdatePokemon(pokemon)}
                                             className="block px-4 py-2 text-left w-full hover:bg-gray-100"
                                         >
                                             Editar
                                         </button>
+
+                                        {isEditModalOpen && (
+                                            <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                                                <div className="bg-white p-6 rounded shadow-lg w-full max-w-md">
+                                                    <h2 className="text-lg font-bold mb-4">Editar Pokémon</h2>
+                                                    <div className="space-y-4">
+                                                        <div>
+                                                            <input
+                                                                type="text"
+                                                                placeholder="Nome"
+                                                                value={pokemonToEdit.name}
+                                                                onChange={(e) =>
+                                                                    setPokemonToEdit({ ...pokemonToEdit, name: e.target.value })
+                                                                }
+                                                                className="border p-2 w-full"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                    <div className="mt-4 flex justify-end space-x-2">
+                                                        <button
+                                                            onClick={() => setIsEditModalOpen(false)}
+                                                            className="bg-gray-300 px-4 py-2 rounded hover:bg-gray-400"
+                                                        >
+                                                            Cancelar
+                                                        </button>
+                                                        <button
+                                                            onClick={() => {
+                                                                setPokemonList(
+                                                                    pokemonList.map((pokemon) =>
+                                                                        pokemon.id === pokemonToEdit.id
+                                                                            ? { ...pokemon, name: pokemonToEdit.name }
+                                                                            : pokemon
+                                                                    )
+                                                                );
+                                                                setIsEditModalOpen(false);
+                                                            }}
+                                                            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                                                        >
+                                                            Salvar
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )}
+
                                         <button
                                             onClick={() => handleDeletePokemon(pokemon.id)}
                                             className="block px-4 py-2 text-left w-full hover:bg-gray-100 text-red-500"
