@@ -1,32 +1,63 @@
-// src/hooks/usePokemons.js
+// src/hooks/usePokemon.js
 import { useState, useEffect } from 'react';
-import { fetchPokemonList, fetchPokemonDetails } from '../data/api';
+import { getPokemons, addPokemon, editPokemon, deletePokemon } from '../data/api';
 
-const usePokemons = (limit = 151) => {
-    const [pokemons, setPokemons] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+const usePokemon = () => {
+  const [pokemons, setPokemons] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const basicPokemonList = await fetchPokemonList(limit);
-                const detailedPokemonList = await Promise.all(
-                    basicPokemonList.map((pokemon) => fetchPokemonDetails(pokemon.url))
-                );
-                setPokemons(detailedPokemonList);
-            } catch (err) {
-                setError('Erro ao carregar Pokémons.');
-                console.error(err);
-            } finally {
-                setLoading(false);
-            }
-        };
+  useEffect(() => {
+    fetchPokemons();
+  }, []);
 
-        fetchData();
-    }, [limit]);
+  const fetchPokemons = async () => {
+    setLoading(true);
+    try {
+      const data = await getPokemons();
+      setPokemons(data);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    return { pokemons, loading, error };
+  const handleAddPokemon = async (pokemon) => {
+    try {
+      await addPokemon(pokemon);
+      fetchPokemons();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const handleEditPokemon = async (id, updatedPokemon) => {
+    try {
+      await editPokemon(id, updatedPokemon);
+      fetchPokemons();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const handleDeletePokemon = async (id) => {
+    try {
+      await deletePokemon(id);
+      fetchPokemons();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  return {
+    pokemons,
+    loading,
+    error,
+    handleAddPokemon,
+    handleEditPokemon,
+    handleDeletePokemon,
+  };
 };
 
-export default usePokemons;
+export default usePokemon;

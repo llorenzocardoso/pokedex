@@ -1,7 +1,6 @@
 // src/App.jsx
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import DetailsPage from './pages/DetailsPage';
 import Pokedex from './pages/Pokedex';
 
 const App = () => (
@@ -9,7 +8,6 @@ const App = () => (
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/pokedex" element={<Pokedex />} />
-            <Route path="/pokemon/:name" element={<DetailsPage />} />
         </Routes>
     </BrowserRouter>
 );
