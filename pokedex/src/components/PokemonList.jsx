@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import usePokemons from "../hooks/usePokemon";
 import { useNavigate } from "react-router-dom";
+import { fetchPokemonDetails } from "../data/api";
 
 const PokemonList = () => {
     const navigate = useNavigate();
@@ -12,8 +13,6 @@ const PokemonList = () => {
     const [selectedPokemonId, setSelectedPokemonId] = useState(null);
 
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [isEditModalOpen, setIsEditModalOpen] = useState(false);
-    const [pokemonToEdit, setPokemonToEdit] = useState(null);
 
     useEffect(() => {
         setPokemonList(pokemons);
@@ -21,28 +20,34 @@ const PokemonList = () => {
 
     const validateForm = () => {
         const validationErrors = {};
-        if (!newPokemon.name.trim()) validationErrors.name = "O nome é obrigatório.";
-        if (!newPokemon.id.trim() || isNaN(newPokemon.id)) validationErrors.id = "ID deve ser um número.";
-        if (!newPokemon.sprites.front_default.trim() || !/^https?:\/\//.test(newPokemon.sprites.front_default)) {
-            validationErrors.sprites = "URL da imagem inválida.";
-        }
+        if (!newPokemon.id.trim() || isNaN(newPokemon.id)) validationErrors.id = "ID deve ser um número válido.";
         setErrors(validationErrors);
         return Object.keys(validationErrors).length === 0;
     };
 
-    const handleAddPokemon = () => {
-        if (validateForm()) {
-            const newLocalPokemon = { ...newPokemon, isLocal: true };
-            setPokemonList([...pokemonList, newLocalPokemon]);
-            setNewPokemon({ name: "", id: "", sprites: { front_default: "" } });
-            setErrors({});
-            setIsModalOpen(false);
+    const handleAddPokemon = async () => {
+        if (!newPokemon.id.trim() || isNaN(newPokemon.id)) {
+            alert("ID deve ser um número válido.");
+            return;
         }
-    };
 
-    const handleUpdatePokemon = (pokemon) => {
-        setPokemonToEdit(pokemon);
-        setIsEditModalOpen(true);
+        try {
+            const pokemonApiUrl = `https://pokeapi.co/api/v2/pokemon/${newPokemon.id}`;
+            const data = await fetchPokemonDetails(pokemonApiUrl);
+
+            const newPokemonData = {
+                id: data.id,
+                name: data.name,
+                sprites: { front_default: data.sprites.front_default },
+            };
+
+            setPokemonList([...pokemonList, newPokemonData]);
+            setNewPokemon({ id: "" });
+            setIsModalOpen(false);
+        } catch (error) {
+            alert("Erro ao buscar os dados do Pokémon. Verifique o ID.");
+            console.error(error);
+        }
     };
 
     const handleDeletePokemon = (id) => {
@@ -80,7 +85,7 @@ const PokemonList = () => {
                     <li
                         key={pokemon.id}
                         className="p-3.5 bg-blue-200 rounded-xl shadow-xl hover:bg-gray-200 transition relative"
-                        onClick={(e) => e.stopPropagation()} 
+                        onClick={(e) => e.stopPropagation()}
                     >
                         <div className="flex justify-between items-center">
                             <p className="font-bold text-xl">{pokemon.id}</p>
@@ -103,57 +108,6 @@ const PokemonList = () => {
                                 </button>
                                 {selectedPokemonId === pokemon.id && (
                                     <div className="absolute right-0 mt-2 bg-white shadow-lg rounded w-40 z-10">
-                                        <button
-                                            onClick={() => handleUpdatePokemon(pokemon)}
-                                            className="block px-4 py-2 text-left w-full hover:bg-gray-100"
-                                        >
-                                            Editar
-                                        </button>
-
-                                        {isEditModalOpen && (
-                                            <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                                                <div className="bg-white p-6 rounded shadow-lg w-full max-w-md">
-                                                    <h2 className="text-lg font-bold mb-4">Editar Pokémon</h2>
-                                                    <div className="space-y-4">
-                                                        <div>
-                                                            <input
-                                                                type="text"
-                                                                placeholder="Nome"
-                                                                value={pokemonToEdit.name}
-                                                                onChange={(e) =>
-                                                                    setPokemonToEdit({ ...pokemonToEdit, name: e.target.value })
-                                                                }
-                                                                className="border p-2 w-full"
-                                                            />
-                                                        </div>
-                                                    </div>
-                                                    <div className="mt-4 flex justify-end space-x-2">
-                                                        <button
-                                                            onClick={() => setIsEditModalOpen(false)}
-                                                            className="bg-gray-300 px-4 py-2 rounded hover:bg-gray-400"
-                                                        >
-                                                            Cancelar
-                                                        </button>
-                                                        <button
-                                                            onClick={() => {
-                                                                setPokemonList(
-                                                                    pokemonList.map((pokemon) =>
-                                                                        pokemon.id === pokemonToEdit.id
-                                                                            ? { ...pokemon, name: pokemonToEdit.name }
-                                                                            : pokemon
-                                                                    )
-                                                                );
-                                                                setIsEditModalOpen(false);
-                                                            }}
-                                                            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-                                                        >
-                                                            Salvar
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        )}
-
                                         <button
                                             onClick={() => handleDeletePokemon(pokemon.id)}
                                             className="block px-4 py-2 text-left w-full hover:bg-gray-100 text-red-500"
@@ -184,37 +138,12 @@ const PokemonList = () => {
                             <div>
                                 <input
                                     type="text"
-                                    placeholder="Nome"
-                                    value={newPokemon.name}
-                                    onChange={(e) => setNewPokemon({ ...newPokemon, name: e.target.value })}
-                                    className={`border p-2 w-full ${errors.name ? "border-red-500" : ""}`}
-                                />
-                                {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
-                            </div>
-                            <div>
-                                <input
-                                    type="text"
-                                    placeholder="ID"
+                                    placeholder="ID do Pokémon"
                                     value={newPokemon.id}
-                                    onChange={(e) => setNewPokemon({ ...newPokemon, id: e.target.value })}
+                                    onChange={(e) => setNewPokemon({ id: e.target.value })}
                                     className={`border p-2 w-full ${errors.id ? "border-red-500" : ""}`}
                                 />
                                 {errors.id && <p className="text-red-500 text-sm">{errors.id}</p>}
-                            </div>
-                            <div>
-                                <input
-                                    type="text"
-                                    placeholder="URL da Imagem"
-                                    value={newPokemon.sprites.front_default}
-                                    onChange={(e) =>
-                                        setNewPokemon({
-                                            ...newPokemon,
-                                            sprites: { front_default: e.target.value },
-                                        })
-                                    }
-                                    className={`border p-2 w-full ${errors.sprites ? "border-red-500" : ""}`}
-                                />
-                                {errors.sprites && <p className="text-red-500 text-sm">{errors.sprites}</p>}
                             </div>
                         </div>
                         <div className="mt-4 flex justify-end space-x-2">

@@ -5,7 +5,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="min-h-screen bg-yellow-300 flex items-start justify-center px-8 pt-52">
+        <div className="min-h-screen bg-yellow-400 flex items-start justify-center px-8 pt-52">
             <div className="flex items-start justify-center gap-16">
                 <div className="flex flex-col items-start justify-center max-w-md">
                     <h1 className="text-5xl font-bold text-black">
