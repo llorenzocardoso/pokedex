@@ -8,8 +8,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
       "height": 7,
-      "weight": 69
+      "weight": 69,
+      "abilities": [
+        "overgrow",
+        "chlorophyll"
+      ],
+      "evolutions": [
+        {
+          "name": "bulbasaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        },
+        {
+          "name": "ivysaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        },
+        {
+          "name": "venusaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+        }
+      ]
     },
     {
       "id": "2",
@@ -19,8 +38,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
       "height": 10,
-      "weight": 130
+      "weight": 130,
+      "abilities": [
+        "overgrow",
+        "chlorophyll"
+      ],
+      "evolutions": [
+        {
+          "name": "bulbasaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        },
+        {
+          "name": "ivysaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        },
+        {
+          "name": "venusaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+        }
+      ]
     },
     {
       "id": "3",
@@ -30,8 +68,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
       "height": 20,
-      "weight": 1000
+      "weight": 1000,
+      "abilities": [
+        "overgrow",
+        "chlorophyll"
+      ],
+      "evolutions": [
+        {
+          "name": "bulbasaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        },
+        {
+          "name": "ivysaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        },
+        {
+          "name": "venusaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+        }
+      ]
     },
     {
       "id": "4",
@@ -40,8 +97,27 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
       "height": 6,
-      "weight": 85
+      "weight": 85,
+      "abilities": [
+        "blaze",
+        "solar-power"
+      ],
+      "evolutions": [
+        {
+          "name": "charmander",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        },
+        {
+          "name": "charmeleon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+        },
+        {
+          "name": "charizard",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+        }
+      ]
     },
     {
       "id": "5",
@@ -50,8 +126,27 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
       "height": 11,
-      "weight": 190
+      "weight": 190,
+      "abilities": [
+        "blaze",
+        "solar-power"
+      ],
+      "evolutions": [
+        {
+          "name": "charmander",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        },
+        {
+          "name": "charmeleon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+        },
+        {
+          "name": "charizard",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+        }
+      ]
     },
     {
       "id": "6",
@@ -61,8 +156,27 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
       "height": 17,
-      "weight": 905
+      "weight": 905,
+      "abilities": [
+        "blaze",
+        "solar-power"
+      ],
+      "evolutions": [
+        {
+          "name": "charmander",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        },
+        {
+          "name": "charmeleon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+        },
+        {
+          "name": "charizard",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+        }
+      ]
     },
     {
       "id": "7",
@@ -71,8 +185,27 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
       "height": 5,
-      "weight": 90
+      "weight": 90,
+      "abilities": [
+        "torrent",
+        "rain-dish"
+      ],
+      "evolutions": [
+        {
+          "name": "squirtle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        },
+        {
+          "name": "wartortle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+        },
+        {
+          "name": "blastoise",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+        }
+      ]
     },
     {
       "id": "8",
@@ -81,8 +214,27 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
       "height": 10,
-      "weight": 225
+      "weight": 225,
+      "abilities": [
+        "torrent",
+        "rain-dish"
+      ],
+      "evolutions": [
+        {
+          "name": "squirtle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        },
+        {
+          "name": "wartortle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+        },
+        {
+          "name": "blastoise",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+        }
+      ]
     },
     {
       "id": "9",
@@ -91,8 +243,27 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
       "height": 16,
-      "weight": 855
+      "weight": 855,
+      "abilities": [
+        "torrent",
+        "rain-dish"
+      ],
+      "evolutions": [
+        {
+          "name": "squirtle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        },
+        {
+          "name": "wartortle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+        },
+        {
+          "name": "blastoise",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+        }
+      ]
     },
     {
       "id": "10",
@@ -101,8 +272,27 @@
         "bug"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
       "height": 3,
-      "weight": 29
+      "weight": 29,
+      "abilities": [
+        "shield-dust",
+        "run-away"
+      ],
+      "evolutions": [
+        {
+          "name": "caterpie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+        },
+        {
+          "name": "metapod",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+        },
+        {
+          "name": "butterfree",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        }
+      ]
     },
     {
       "id": "11",
@@ -111,8 +301,26 @@
         "bug"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
       "height": 7,
-      "weight": 99
+      "weight": 99,
+      "abilities": [
+        "shed-skin"
+      ],
+      "evolutions": [
+        {
+          "name": "caterpie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+        },
+        {
+          "name": "metapod",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+        },
+        {
+          "name": "butterfree",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        }
+      ]
     },
     {
       "id": "12",
@@ -122,8 +330,27 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
       "height": 11,
-      "weight": 320
+      "weight": 320,
+      "abilities": [
+        "compound-eyes",
+        "tinted-lens"
+      ],
+      "evolutions": [
+        {
+          "name": "caterpie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+        },
+        {
+          "name": "metapod",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+        },
+        {
+          "name": "butterfree",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        }
+      ]
     },
     {
       "id": "13",
@@ -133,8 +360,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
       "height": 3,
-      "weight": 32
+      "weight": 32,
+      "abilities": [
+        "shield-dust",
+        "run-away"
+      ],
+      "evolutions": [
+        {
+          "name": "weedle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+        },
+        {
+          "name": "kakuna",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+        },
+        {
+          "name": "beedrill",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+        }
+      ]
     },
     {
       "id": "14",
@@ -144,8 +390,26 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
       "height": 6,
-      "weight": 100
+      "weight": 100,
+      "abilities": [
+        "shed-skin"
+      ],
+      "evolutions": [
+        {
+          "name": "weedle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+        },
+        {
+          "name": "kakuna",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+        },
+        {
+          "name": "beedrill",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+        }
+      ]
     },
     {
       "id": "15",
@@ -155,8 +419,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
       "height": 10,
-      "weight": 295
+      "weight": 295,
+      "abilities": [
+        "swarm",
+        "sniper"
+      ],
+      "evolutions": [
+        {
+          "name": "weedle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+        },
+        {
+          "name": "kakuna",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+        },
+        {
+          "name": "beedrill",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+        }
+      ]
     },
     {
       "id": "16",
@@ -166,8 +449,28 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
       "height": 3,
-      "weight": 18
+      "weight": 18,
+      "abilities": [
+        "keen-eye",
+        "tangled-feet",
+        "big-pecks"
+      ],
+      "evolutions": [
+        {
+          "name": "pidgey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+        },
+        {
+          "name": "pidgeotto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+        },
+        {
+          "name": "pidgeot",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+        }
+      ]
     },
     {
       "id": "17",
@@ -177,8 +480,28 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
       "height": 11,
-      "weight": 300
+      "weight": 300,
+      "abilities": [
+        "keen-eye",
+        "tangled-feet",
+        "big-pecks"
+      ],
+      "evolutions": [
+        {
+          "name": "pidgey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+        },
+        {
+          "name": "pidgeotto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+        },
+        {
+          "name": "pidgeot",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+        }
+      ]
     },
     {
       "id": "18",
@@ -188,8 +511,28 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
       "height": 15,
-      "weight": 395
+      "weight": 395,
+      "abilities": [
+        "keen-eye",
+        "tangled-feet",
+        "big-pecks"
+      ],
+      "evolutions": [
+        {
+          "name": "pidgey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+        },
+        {
+          "name": "pidgeotto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+        },
+        {
+          "name": "pidgeot",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+        }
+      ]
     },
     {
       "id": "19",
@@ -198,8 +541,24 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
       "height": 3,
-      "weight": 35
+      "weight": 35,
+      "abilities": [
+        "run-away",
+        "guts",
+        "hustle"
+      ],
+      "evolutions": [
+        {
+          "name": "rattata",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+        },
+        {
+          "name": "raticate",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+        }
+      ]
     },
     {
       "id": "20",
@@ -208,8 +567,24 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
       "height": 7,
-      "weight": 185
+      "weight": 185,
+      "abilities": [
+        "run-away",
+        "guts",
+        "hustle"
+      ],
+      "evolutions": [
+        {
+          "name": "rattata",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+        },
+        {
+          "name": "raticate",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+        }
+      ]
     },
     {
       "id": "21",
@@ -219,8 +594,23 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
       "height": 3,
-      "weight": 20
+      "weight": 20,
+      "abilities": [
+        "keen-eye",
+        "sniper"
+      ],
+      "evolutions": [
+        {
+          "name": "spearow",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+        },
+        {
+          "name": "fearow",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+        }
+      ]
     },
     {
       "id": "22",
@@ -230,8 +620,23 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
       "height": 12,
-      "weight": 380
+      "weight": 380,
+      "abilities": [
+        "keen-eye",
+        "sniper"
+      ],
+      "evolutions": [
+        {
+          "name": "spearow",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+        },
+        {
+          "name": "fearow",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+        }
+      ]
     },
     {
       "id": "23",
@@ -240,8 +645,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
       "height": 20,
-      "weight": 69
+      "weight": 69,
+      "abilities": [
+        "intimidate",
+        "shed-skin",
+        "unnerve"
+      ],
+      "evolutions": [
+        {
+          "name": "ekans",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+        },
+        {
+          "name": "arbok",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+        }
+      ]
     },
     {
       "id": "24",
@@ -250,8 +671,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
       "height": 35,
-      "weight": 650
+      "weight": 650,
+      "abilities": [
+        "intimidate",
+        "shed-skin",
+        "unnerve"
+      ],
+      "evolutions": [
+        {
+          "name": "ekans",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+        },
+        {
+          "name": "arbok",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+        }
+      ]
     },
     {
       "id": "25",
@@ -260,8 +697,27 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
       "height": 4,
-      "weight": 60
+      "weight": 60,
+      "abilities": [
+        "static",
+        "lightning-rod"
+      ],
+      "evolutions": [
+        {
+          "name": "pichu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png"
+        },
+        {
+          "name": "pikachu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+        },
+        {
+          "name": "raichu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+        }
+      ]
     },
     {
       "id": "26",
@@ -270,8 +726,27 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
       "height": 8,
-      "weight": 300
+      "weight": 300,
+      "abilities": [
+        "static",
+        "lightning-rod"
+      ],
+      "evolutions": [
+        {
+          "name": "pichu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png"
+        },
+        {
+          "name": "pikachu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+        },
+        {
+          "name": "raichu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+        }
+      ]
     },
     {
       "id": "27",
@@ -280,8 +755,23 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
       "height": 6,
-      "weight": 120
+      "weight": 120,
+      "abilities": [
+        "sand-veil",
+        "sand-rush"
+      ],
+      "evolutions": [
+        {
+          "name": "sandshrew",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+        },
+        {
+          "name": "sandslash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+        }
+      ]
     },
     {
       "id": "28",
@@ -290,8 +780,23 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
       "height": 10,
-      "weight": 295
+      "weight": 295,
+      "abilities": [
+        "sand-veil",
+        "sand-rush"
+      ],
+      "evolutions": [
+        {
+          "name": "sandshrew",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+        },
+        {
+          "name": "sandslash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+        }
+      ]
     },
     {
       "id": "29",
@@ -300,8 +805,28 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
       "height": 4,
-      "weight": 70
+      "weight": 70,
+      "abilities": [
+        "poison-point",
+        "rivalry",
+        "hustle"
+      ],
+      "evolutions": [
+        {
+          "name": "nidoran-f",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+        },
+        {
+          "name": "nidorina",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+        },
+        {
+          "name": "nidoqueen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+        }
+      ]
     },
     {
       "id": "30",
@@ -310,8 +835,28 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
       "height": 8,
-      "weight": 200
+      "weight": 200,
+      "abilities": [
+        "poison-point",
+        "rivalry",
+        "hustle"
+      ],
+      "evolutions": [
+        {
+          "name": "nidoran-f",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+        },
+        {
+          "name": "nidorina",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+        },
+        {
+          "name": "nidoqueen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+        }
+      ]
     },
     {
       "id": "31",
@@ -321,8 +866,28 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
       "height": 13,
-      "weight": 600
+      "weight": 600,
+      "abilities": [
+        "poison-point",
+        "rivalry",
+        "sheer-force"
+      ],
+      "evolutions": [
+        {
+          "name": "nidoran-f",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+        },
+        {
+          "name": "nidorina",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+        },
+        {
+          "name": "nidoqueen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+        }
+      ]
     },
     {
       "id": "32",
@@ -331,8 +896,28 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
       "height": 5,
-      "weight": 90
+      "weight": 90,
+      "abilities": [
+        "poison-point",
+        "rivalry",
+        "hustle"
+      ],
+      "evolutions": [
+        {
+          "name": "nidoran-m",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+        },
+        {
+          "name": "nidorino",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+        },
+        {
+          "name": "nidoking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+        }
+      ]
     },
     {
       "id": "33",
@@ -341,8 +926,28 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
       "height": 9,
-      "weight": 195
+      "weight": 195,
+      "abilities": [
+        "poison-point",
+        "rivalry",
+        "hustle"
+      ],
+      "evolutions": [
+        {
+          "name": "nidoran-m",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+        },
+        {
+          "name": "nidorino",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+        },
+        {
+          "name": "nidoking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+        }
+      ]
     },
     {
       "id": "34",
@@ -352,8 +957,28 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
       "height": 14,
-      "weight": 620
+      "weight": 620,
+      "abilities": [
+        "poison-point",
+        "rivalry",
+        "sheer-force"
+      ],
+      "evolutions": [
+        {
+          "name": "nidoran-m",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+        },
+        {
+          "name": "nidorino",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+        },
+        {
+          "name": "nidoking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+        }
+      ]
     },
     {
       "id": "35",
@@ -362,8 +987,28 @@
         "fairy"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
       "height": 6,
-      "weight": 75
+      "weight": 75,
+      "abilities": [
+        "cute-charm",
+        "magic-guard",
+        "friend-guard"
+      ],
+      "evolutions": [
+        {
+          "name": "cleffa",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png"
+        },
+        {
+          "name": "clefairy",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+        },
+        {
+          "name": "clefable",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+        }
+      ]
     },
     {
       "id": "36",
@@ -372,8 +1017,28 @@
         "fairy"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
       "height": 13,
-      "weight": 400
+      "weight": 400,
+      "abilities": [
+        "cute-charm",
+        "magic-guard",
+        "unaware"
+      ],
+      "evolutions": [
+        {
+          "name": "cleffa",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png"
+        },
+        {
+          "name": "clefairy",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+        },
+        {
+          "name": "clefable",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+        }
+      ]
     },
     {
       "id": "37",
@@ -382,8 +1047,23 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
       "height": 6,
-      "weight": 99
+      "weight": 99,
+      "abilities": [
+        "flash-fire",
+        "drought"
+      ],
+      "evolutions": [
+        {
+          "name": "vulpix",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+        },
+        {
+          "name": "ninetales",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+        }
+      ]
     },
     {
       "id": "38",
@@ -392,8 +1072,23 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
       "height": 11,
-      "weight": 199
+      "weight": 199,
+      "abilities": [
+        "flash-fire",
+        "drought"
+      ],
+      "evolutions": [
+        {
+          "name": "vulpix",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+        },
+        {
+          "name": "ninetales",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+        }
+      ]
     },
     {
       "id": "39",
@@ -403,8 +1098,28 @@
         "fairy"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
       "height": 5,
-      "weight": 55
+      "weight": 55,
+      "abilities": [
+        "cute-charm",
+        "competitive",
+        "friend-guard"
+      ],
+      "evolutions": [
+        {
+          "name": "igglybuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+        },
+        {
+          "name": "jigglypuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+        },
+        {
+          "name": "wigglytuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+        }
+      ]
     },
     {
       "id": "40",
@@ -414,8 +1129,28 @@
         "fairy"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
       "height": 10,
-      "weight": 120
+      "weight": 120,
+      "abilities": [
+        "cute-charm",
+        "competitive",
+        "frisk"
+      ],
+      "evolutions": [
+        {
+          "name": "igglybuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+        },
+        {
+          "name": "jigglypuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+        },
+        {
+          "name": "wigglytuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+        }
+      ]
     },
     {
       "id": "41",
@@ -425,8 +1160,27 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
       "height": 8,
-      "weight": 75
+      "weight": 75,
+      "abilities": [
+        "inner-focus",
+        "infiltrator"
+      ],
+      "evolutions": [
+        {
+          "name": "zubat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+        },
+        {
+          "name": "golbat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+        },
+        {
+          "name": "crobat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+        }
+      ]
     },
     {
       "id": "42",
@@ -436,8 +1190,27 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
       "height": 16,
-      "weight": 550
+      "weight": 550,
+      "abilities": [
+        "inner-focus",
+        "infiltrator"
+      ],
+      "evolutions": [
+        {
+          "name": "zubat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+        },
+        {
+          "name": "golbat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+        },
+        {
+          "name": "crobat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+        }
+      ]
     },
     {
       "id": "43",
@@ -447,8 +1220,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
       "height": 5,
-      "weight": 54
+      "weight": 54,
+      "abilities": [
+        "chlorophyll",
+        "run-away"
+      ],
+      "evolutions": [
+        {
+          "name": "oddish",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+        },
+        {
+          "name": "gloom",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+        },
+        {
+          "name": "vileplume",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+        }
+      ]
     },
     {
       "id": "44",
@@ -458,8 +1250,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
       "height": 8,
-      "weight": 86
+      "weight": 86,
+      "abilities": [
+        "chlorophyll",
+        "stench"
+      ],
+      "evolutions": [
+        {
+          "name": "oddish",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+        },
+        {
+          "name": "gloom",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+        },
+        {
+          "name": "vileplume",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+        }
+      ]
     },
     {
       "id": "45",
@@ -469,8 +1280,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
       "height": 12,
-      "weight": 186
+      "weight": 186,
+      "abilities": [
+        "chlorophyll",
+        "effect-spore"
+      ],
+      "evolutions": [
+        {
+          "name": "oddish",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+        },
+        {
+          "name": "gloom",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+        },
+        {
+          "name": "vileplume",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+        }
+      ]
     },
     {
       "id": "46",
@@ -480,8 +1310,24 @@
         "grass"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
       "height": 3,
-      "weight": 54
+      "weight": 54,
+      "abilities": [
+        "effect-spore",
+        "dry-skin",
+        "damp"
+      ],
+      "evolutions": [
+        {
+          "name": "paras",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+        },
+        {
+          "name": "parasect",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+        }
+      ]
     },
     {
       "id": "47",
@@ -491,8 +1337,24 @@
         "grass"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
       "height": 10,
-      "weight": 295
+      "weight": 295,
+      "abilities": [
+        "effect-spore",
+        "dry-skin",
+        "damp"
+      ],
+      "evolutions": [
+        {
+          "name": "paras",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+        },
+        {
+          "name": "parasect",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+        }
+      ]
     },
     {
       "id": "48",
@@ -502,8 +1364,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
       "height": 10,
-      "weight": 300
+      "weight": 300,
+      "abilities": [
+        "compound-eyes",
+        "tinted-lens",
+        "run-away"
+      ],
+      "evolutions": [
+        {
+          "name": "venonat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+        },
+        {
+          "name": "venomoth",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+        }
+      ]
     },
     {
       "id": "49",
@@ -513,8 +1391,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
       "height": 15,
-      "weight": 125
+      "weight": 125,
+      "abilities": [
+        "shield-dust",
+        "tinted-lens",
+        "wonder-skin"
+      ],
+      "evolutions": [
+        {
+          "name": "venonat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+        },
+        {
+          "name": "venomoth",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+        }
+      ]
     },
     {
       "id": "50",
@@ -523,8 +1417,24 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
       "height": 2,
-      "weight": 8
+      "weight": 8,
+      "abilities": [
+        "sand-veil",
+        "arena-trap",
+        "sand-force"
+      ],
+      "evolutions": [
+        {
+          "name": "diglett",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+        },
+        {
+          "name": "dugtrio",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+        }
+      ]
     },
     {
       "id": "51",
@@ -533,8 +1443,24 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
       "height": 7,
-      "weight": 333
+      "weight": 333,
+      "abilities": [
+        "sand-veil",
+        "arena-trap",
+        "sand-force"
+      ],
+      "evolutions": [
+        {
+          "name": "diglett",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+        },
+        {
+          "name": "dugtrio",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+        }
+      ]
     },
     {
       "id": "52",
@@ -543,8 +1469,24 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
       "height": 4,
-      "weight": 42
+      "weight": 42,
+      "abilities": [
+        "pickup",
+        "technician",
+        "unnerve"
+      ],
+      "evolutions": [
+        {
+          "name": "meowth",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+        },
+        {
+          "name": "persian",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+        }
+      ]
     },
     {
       "id": "53",
@@ -553,8 +1495,24 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
       "height": 10,
-      "weight": 320
+      "weight": 320,
+      "abilities": [
+        "limber",
+        "technician",
+        "unnerve"
+      ],
+      "evolutions": [
+        {
+          "name": "meowth",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+        },
+        {
+          "name": "persian",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+        }
+      ]
     },
     {
       "id": "54",
@@ -563,8 +1521,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
       "height": 8,
-      "weight": 196
+      "weight": 196,
+      "abilities": [
+        "damp",
+        "cloud-nine",
+        "swift-swim"
+      ],
+      "evolutions": [
+        {
+          "name": "psyduck",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+        },
+        {
+          "name": "golduck",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+        }
+      ]
     },
     {
       "id": "55",
@@ -573,8 +1547,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
       "height": 17,
-      "weight": 766
+      "weight": 766,
+      "abilities": [
+        "damp",
+        "cloud-nine",
+        "swift-swim"
+      ],
+      "evolutions": [
+        {
+          "name": "psyduck",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+        },
+        {
+          "name": "golduck",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+        }
+      ]
     },
     {
       "id": "56",
@@ -583,8 +1573,28 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
       "height": 5,
-      "weight": 280
+      "weight": 280,
+      "abilities": [
+        "vital-spirit",
+        "anger-point",
+        "defiant"
+      ],
+      "evolutions": [
+        {
+          "name": "mankey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+        },
+        {
+          "name": "primeape",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+        },
+        {
+          "name": "annihilape",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
+        }
+      ]
     },
     {
       "id": "57",
@@ -593,8 +1603,28 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
       "height": 10,
-      "weight": 320
+      "weight": 320,
+      "abilities": [
+        "vital-spirit",
+        "anger-point",
+        "defiant"
+      ],
+      "evolutions": [
+        {
+          "name": "mankey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+        },
+        {
+          "name": "primeape",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+        },
+        {
+          "name": "annihilape",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
+        }
+      ]
     },
     {
       "id": "58",
@@ -603,8 +1633,24 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
       "height": 7,
-      "weight": 190
+      "weight": 190,
+      "abilities": [
+        "intimidate",
+        "flash-fire",
+        "justified"
+      ],
+      "evolutions": [
+        {
+          "name": "growlithe",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+        },
+        {
+          "name": "arcanine",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+        }
+      ]
     },
     {
       "id": "59",
@@ -613,8 +1659,24 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
       "height": 19,
-      "weight": 1550
+      "weight": 1550,
+      "abilities": [
+        "intimidate",
+        "flash-fire",
+        "justified"
+      ],
+      "evolutions": [
+        {
+          "name": "growlithe",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+        },
+        {
+          "name": "arcanine",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+        }
+      ]
     },
     {
       "id": "60",
@@ -623,8 +1685,28 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
       "height": 6,
-      "weight": 124
+      "weight": 124,
+      "abilities": [
+        "water-absorb",
+        "damp",
+        "swift-swim"
+      ],
+      "evolutions": [
+        {
+          "name": "poliwag",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+        },
+        {
+          "name": "poliwhirl",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+        },
+        {
+          "name": "poliwrath",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+        }
+      ]
     },
     {
       "id": "61",
@@ -633,8 +1715,28 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
       "height": 10,
-      "weight": 200
+      "weight": 200,
+      "abilities": [
+        "water-absorb",
+        "damp",
+        "swift-swim"
+      ],
+      "evolutions": [
+        {
+          "name": "poliwag",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+        },
+        {
+          "name": "poliwhirl",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+        },
+        {
+          "name": "poliwrath",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+        }
+      ]
     },
     {
       "id": "62",
@@ -644,8 +1746,28 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
       "height": 13,
-      "weight": 540
+      "weight": 540,
+      "abilities": [
+        "water-absorb",
+        "damp",
+        "swift-swim"
+      ],
+      "evolutions": [
+        {
+          "name": "poliwag",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+        },
+        {
+          "name": "poliwhirl",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+        },
+        {
+          "name": "poliwrath",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+        }
+      ]
     },
     {
       "id": "63",
@@ -654,8 +1776,28 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
       "height": 9,
-      "weight": 195
+      "weight": 195,
+      "abilities": [
+        "synchronize",
+        "inner-focus",
+        "magic-guard"
+      ],
+      "evolutions": [
+        {
+          "name": "abra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+        },
+        {
+          "name": "kadabra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+        },
+        {
+          "name": "alakazam",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+        }
+      ]
     },
     {
       "id": "64",
@@ -664,8 +1806,28 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
       "height": 13,
-      "weight": 565
+      "weight": 565,
+      "abilities": [
+        "synchronize",
+        "inner-focus",
+        "magic-guard"
+      ],
+      "evolutions": [
+        {
+          "name": "abra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+        },
+        {
+          "name": "kadabra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+        },
+        {
+          "name": "alakazam",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+        }
+      ]
     },
     {
       "id": "65",
@@ -674,8 +1836,28 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
       "height": 15,
-      "weight": 480
+      "weight": 480,
+      "abilities": [
+        "synchronize",
+        "inner-focus",
+        "magic-guard"
+      ],
+      "evolutions": [
+        {
+          "name": "abra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+        },
+        {
+          "name": "kadabra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+        },
+        {
+          "name": "alakazam",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+        }
+      ]
     },
     {
       "id": "66",
@@ -684,8 +1866,28 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
       "height": 8,
-      "weight": 195
+      "weight": 195,
+      "abilities": [
+        "guts",
+        "no-guard",
+        "steadfast"
+      ],
+      "evolutions": [
+        {
+          "name": "machop",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+        },
+        {
+          "name": "machoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+        },
+        {
+          "name": "machamp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+        }
+      ]
     },
     {
       "id": "67",
@@ -694,8 +1896,28 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
       "height": 15,
-      "weight": 705
+      "weight": 705,
+      "abilities": [
+        "guts",
+        "no-guard",
+        "steadfast"
+      ],
+      "evolutions": [
+        {
+          "name": "machop",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+        },
+        {
+          "name": "machoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+        },
+        {
+          "name": "machamp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+        }
+      ]
     },
     {
       "id": "68",
@@ -704,8 +1926,28 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
       "height": 16,
-      "weight": 1300
+      "weight": 1300,
+      "abilities": [
+        "guts",
+        "no-guard",
+        "steadfast"
+      ],
+      "evolutions": [
+        {
+          "name": "machop",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+        },
+        {
+          "name": "machoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+        },
+        {
+          "name": "machamp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+        }
+      ]
     },
     {
       "id": "69",
@@ -715,8 +1957,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
       "height": 7,
-      "weight": 40
+      "weight": 40,
+      "abilities": [
+        "chlorophyll",
+        "gluttony"
+      ],
+      "evolutions": [
+        {
+          "name": "bellsprout",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+        },
+        {
+          "name": "weepinbell",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+        },
+        {
+          "name": "victreebel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+        }
+      ]
     },
     {
       "id": "70",
@@ -726,8 +1987,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
       "height": 10,
-      "weight": 64
+      "weight": 64,
+      "abilities": [
+        "chlorophyll",
+        "gluttony"
+      ],
+      "evolutions": [
+        {
+          "name": "bellsprout",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+        },
+        {
+          "name": "weepinbell",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+        },
+        {
+          "name": "victreebel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+        }
+      ]
     },
     {
       "id": "71",
@@ -737,8 +2017,27 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
       "height": 17,
-      "weight": 155
+      "weight": 155,
+      "abilities": [
+        "chlorophyll",
+        "gluttony"
+      ],
+      "evolutions": [
+        {
+          "name": "bellsprout",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+        },
+        {
+          "name": "weepinbell",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+        },
+        {
+          "name": "victreebel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+        }
+      ]
     },
     {
       "id": "72",
@@ -748,8 +2047,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
       "height": 9,
-      "weight": 455
+      "weight": 455,
+      "abilities": [
+        "clear-body",
+        "liquid-ooze",
+        "rain-dish"
+      ],
+      "evolutions": [
+        {
+          "name": "tentacool",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+        },
+        {
+          "name": "tentacruel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+        }
+      ]
     },
     {
       "id": "73",
@@ -759,8 +2074,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
       "height": 16,
-      "weight": 550
+      "weight": 550,
+      "abilities": [
+        "clear-body",
+        "liquid-ooze",
+        "rain-dish"
+      ],
+      "evolutions": [
+        {
+          "name": "tentacool",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+        },
+        {
+          "name": "tentacruel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+        }
+      ]
     },
     {
       "id": "74",
@@ -770,8 +2101,28 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
       "height": 4,
-      "weight": 200
+      "weight": 200,
+      "abilities": [
+        "rock-head",
+        "sturdy",
+        "sand-veil"
+      ],
+      "evolutions": [
+        {
+          "name": "geodude",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+        },
+        {
+          "name": "graveler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+        },
+        {
+          "name": "golem",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+        }
+      ]
     },
     {
       "id": "75",
@@ -781,8 +2132,28 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
       "height": 10,
-      "weight": 1050
+      "weight": 1050,
+      "abilities": [
+        "rock-head",
+        "sturdy",
+        "sand-veil"
+      ],
+      "evolutions": [
+        {
+          "name": "geodude",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+        },
+        {
+          "name": "graveler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+        },
+        {
+          "name": "golem",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+        }
+      ]
     },
     {
       "id": "76",
@@ -792,8 +2163,28 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
       "height": 14,
-      "weight": 3000
+      "weight": 3000,
+      "abilities": [
+        "rock-head",
+        "sturdy",
+        "sand-veil"
+      ],
+      "evolutions": [
+        {
+          "name": "geodude",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+        },
+        {
+          "name": "graveler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+        },
+        {
+          "name": "golem",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+        }
+      ]
     },
     {
       "id": "77",
@@ -802,8 +2193,24 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
       "height": 10,
-      "weight": 300
+      "weight": 300,
+      "abilities": [
+        "run-away",
+        "flash-fire",
+        "flame-body"
+      ],
+      "evolutions": [
+        {
+          "name": "ponyta",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+        },
+        {
+          "name": "rapidash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+        }
+      ]
     },
     {
       "id": "78",
@@ -812,8 +2219,24 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
       "height": 17,
-      "weight": 950
+      "weight": 950,
+      "abilities": [
+        "run-away",
+        "flash-fire",
+        "flame-body"
+      ],
+      "evolutions": [
+        {
+          "name": "ponyta",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+        },
+        {
+          "name": "rapidash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+        }
+      ]
     },
     {
       "id": "79",
@@ -823,8 +2246,24 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
       "height": 12,
-      "weight": 360
+      "weight": 360,
+      "abilities": [
+        "oblivious",
+        "own-tempo",
+        "regenerator"
+      ],
+      "evolutions": [
+        {
+          "name": "slowpoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+        },
+        {
+          "name": "slowbro",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+        }
+      ]
     },
     {
       "id": "80",
@@ -834,8 +2273,24 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
       "height": 16,
-      "weight": 785
+      "weight": 785,
+      "abilities": [
+        "oblivious",
+        "own-tempo",
+        "regenerator"
+      ],
+      "evolutions": [
+        {
+          "name": "slowpoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+        },
+        {
+          "name": "slowbro",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+        }
+      ]
     },
     {
       "id": "81",
@@ -845,8 +2300,28 @@
         "steel"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
       "height": 3,
-      "weight": 60
+      "weight": 60,
+      "abilities": [
+        "magnet-pull",
+        "sturdy",
+        "analytic"
+      ],
+      "evolutions": [
+        {
+          "name": "magnemite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+        },
+        {
+          "name": "magneton",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+        },
+        {
+          "name": "magnezone",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
+        }
+      ]
     },
     {
       "id": "82",
@@ -856,8 +2331,28 @@
         "steel"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
       "height": 10,
-      "weight": 600
+      "weight": 600,
+      "abilities": [
+        "magnet-pull",
+        "sturdy",
+        "analytic"
+      ],
+      "evolutions": [
+        {
+          "name": "magnemite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+        },
+        {
+          "name": "magneton",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+        },
+        {
+          "name": "magnezone",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
+        }
+      ]
     },
     {
       "id": "83",
@@ -867,8 +2362,24 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
       "height": 8,
-      "weight": 150
+      "weight": 150,
+      "abilities": [
+        "keen-eye",
+        "inner-focus",
+        "defiant"
+      ],
+      "evolutions": [
+        {
+          "name": "farfetchd",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
+        },
+        {
+          "name": "sirfetchd",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/865.png"
+        }
+      ]
     },
     {
       "id": "84",
@@ -878,8 +2389,24 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
       "height": 14,
-      "weight": 392
+      "weight": 392,
+      "abilities": [
+        "run-away",
+        "early-bird",
+        "tangled-feet"
+      ],
+      "evolutions": [
+        {
+          "name": "doduo",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+        },
+        {
+          "name": "dodrio",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+        }
+      ]
     },
     {
       "id": "85",
@@ -889,8 +2416,24 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
       "height": 18,
-      "weight": 852
+      "weight": 852,
+      "abilities": [
+        "run-away",
+        "early-bird",
+        "tangled-feet"
+      ],
+      "evolutions": [
+        {
+          "name": "doduo",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+        },
+        {
+          "name": "dodrio",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+        }
+      ]
     },
     {
       "id": "86",
@@ -899,8 +2442,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
       "height": 11,
-      "weight": 900
+      "weight": 900,
+      "abilities": [
+        "thick-fat",
+        "hydration",
+        "ice-body"
+      ],
+      "evolutions": [
+        {
+          "name": "seel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+        },
+        {
+          "name": "dewgong",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+        }
+      ]
     },
     {
       "id": "87",
@@ -910,8 +2469,24 @@
         "ice"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
       "height": 17,
-      "weight": 1200
+      "weight": 1200,
+      "abilities": [
+        "thick-fat",
+        "hydration",
+        "ice-body"
+      ],
+      "evolutions": [
+        {
+          "name": "seel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+        },
+        {
+          "name": "dewgong",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+        }
+      ]
     },
     {
       "id": "88",
@@ -920,8 +2495,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
       "height": 9,
-      "weight": 300
+      "weight": 300,
+      "abilities": [
+        "stench",
+        "sticky-hold",
+        "poison-touch"
+      ],
+      "evolutions": [
+        {
+          "name": "grimer",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+        },
+        {
+          "name": "muk",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+        }
+      ]
     },
     {
       "id": "89",
@@ -930,8 +2521,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
       "height": 12,
-      "weight": 300
+      "weight": 300,
+      "abilities": [
+        "stench",
+        "sticky-hold",
+        "poison-touch"
+      ],
+      "evolutions": [
+        {
+          "name": "grimer",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+        },
+        {
+          "name": "muk",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+        }
+      ]
     },
     {
       "id": "90",
@@ -940,8 +2547,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
       "height": 3,
-      "weight": 40
+      "weight": 40,
+      "abilities": [
+        "shell-armor",
+        "skill-link",
+        "overcoat"
+      ],
+      "evolutions": [
+        {
+          "name": "shellder",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+        },
+        {
+          "name": "cloyster",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+        }
+      ]
     },
     {
       "id": "91",
@@ -951,8 +2574,24 @@
         "ice"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
       "height": 15,
-      "weight": 1325
+      "weight": 1325,
+      "abilities": [
+        "shell-armor",
+        "skill-link",
+        "overcoat"
+      ],
+      "evolutions": [
+        {
+          "name": "shellder",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+        },
+        {
+          "name": "cloyster",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+        }
+      ]
     },
     {
       "id": "92",
@@ -962,8 +2601,26 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
       "height": 13,
-      "weight": 1
+      "weight": 1,
+      "abilities": [
+        "levitate"
+      ],
+      "evolutions": [
+        {
+          "name": "gastly",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+        },
+        {
+          "name": "haunter",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+        },
+        {
+          "name": "gengar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+        }
+      ]
     },
     {
       "id": "93",
@@ -973,8 +2630,26 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
       "height": 16,
-      "weight": 1
+      "weight": 1,
+      "abilities": [
+        "levitate"
+      ],
+      "evolutions": [
+        {
+          "name": "gastly",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+        },
+        {
+          "name": "haunter",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+        },
+        {
+          "name": "gengar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+        }
+      ]
     },
     {
       "id": "94",
@@ -984,8 +2659,26 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
       "height": 15,
-      "weight": 405
+      "weight": 405,
+      "abilities": [
+        "cursed-body"
+      ],
+      "evolutions": [
+        {
+          "name": "gastly",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+        },
+        {
+          "name": "haunter",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+        },
+        {
+          "name": "gengar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+        }
+      ]
     },
     {
       "id": "95",
@@ -995,8 +2688,24 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
       "height": 88,
-      "weight": 2100
+      "weight": 2100,
+      "abilities": [
+        "rock-head",
+        "sturdy",
+        "weak-armor"
+      ],
+      "evolutions": [
+        {
+          "name": "onix",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+        },
+        {
+          "name": "steelix",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+        }
+      ]
     },
     {
       "id": "96",
@@ -1005,8 +2714,24 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
       "height": 10,
-      "weight": 324
+      "weight": 324,
+      "abilities": [
+        "insomnia",
+        "forewarn",
+        "inner-focus"
+      ],
+      "evolutions": [
+        {
+          "name": "drowzee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+        },
+        {
+          "name": "hypno",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+        }
+      ]
     },
     {
       "id": "97",
@@ -1015,8 +2740,24 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
       "height": 16,
-      "weight": 756
+      "weight": 756,
+      "abilities": [
+        "insomnia",
+        "forewarn",
+        "inner-focus"
+      ],
+      "evolutions": [
+        {
+          "name": "drowzee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+        },
+        {
+          "name": "hypno",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+        }
+      ]
     },
     {
       "id": "98",
@@ -1025,8 +2766,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
       "height": 4,
-      "weight": 65
+      "weight": 65,
+      "abilities": [
+        "hyper-cutter",
+        "shell-armor",
+        "sheer-force"
+      ],
+      "evolutions": [
+        {
+          "name": "krabby",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+        },
+        {
+          "name": "kingler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+        }
+      ]
     },
     {
       "id": "99",
@@ -1035,8 +2792,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
       "height": 13,
-      "weight": 600
+      "weight": 600,
+      "abilities": [
+        "hyper-cutter",
+        "shell-armor",
+        "sheer-force"
+      ],
+      "evolutions": [
+        {
+          "name": "krabby",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+        },
+        {
+          "name": "kingler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+        }
+      ]
     },
     {
       "id": "100",
@@ -1045,8 +2818,24 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
       "height": 5,
-      "weight": 104
+      "weight": 104,
+      "abilities": [
+        "soundproof",
+        "static",
+        "aftermath"
+      ],
+      "evolutions": [
+        {
+          "name": "voltorb",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
+        },
+        {
+          "name": "electrode",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
+        }
+      ]
     },
     {
       "id": "101",
@@ -1055,8 +2844,24 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
       "height": 12,
-      "weight": 666
+      "weight": 666,
+      "abilities": [
+        "soundproof",
+        "static",
+        "aftermath"
+      ],
+      "evolutions": [
+        {
+          "name": "voltorb",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
+        },
+        {
+          "name": "electrode",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
+        }
+      ]
     },
     {
       "id": "102",
@@ -1066,8 +2871,23 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
       "height": 4,
-      "weight": 25
+      "weight": 25,
+      "abilities": [
+        "chlorophyll",
+        "harvest"
+      ],
+      "evolutions": [
+        {
+          "name": "exeggcute",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+        },
+        {
+          "name": "exeggutor",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+        }
+      ]
     },
     {
       "id": "103",
@@ -1077,8 +2897,23 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
       "height": 20,
-      "weight": 1200
+      "weight": 1200,
+      "abilities": [
+        "chlorophyll",
+        "harvest"
+      ],
+      "evolutions": [
+        {
+          "name": "exeggcute",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+        },
+        {
+          "name": "exeggutor",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+        }
+      ]
     },
     {
       "id": "104",
@@ -1087,8 +2922,24 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
       "height": 4,
-      "weight": 65
+      "weight": 65,
+      "abilities": [
+        "rock-head",
+        "lightning-rod",
+        "battle-armor"
+      ],
+      "evolutions": [
+        {
+          "name": "cubone",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+        },
+        {
+          "name": "marowak",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+        }
+      ]
     },
     {
       "id": "105",
@@ -1097,8 +2948,24 @@
         "ground"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
       "height": 10,
-      "weight": 450
+      "weight": 450,
+      "abilities": [
+        "rock-head",
+        "lightning-rod",
+        "battle-armor"
+      ],
+      "evolutions": [
+        {
+          "name": "cubone",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+        },
+        {
+          "name": "marowak",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+        }
+      ]
     },
     {
       "id": "106",
@@ -1107,8 +2974,24 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
       "height": 15,
-      "weight": 498
+      "weight": 498,
+      "abilities": [
+        "limber",
+        "reckless",
+        "unburden"
+      ],
+      "evolutions": [
+        {
+          "name": "tyrogue",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png"
+        },
+        {
+          "name": "hitmonlee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+        }
+      ]
     },
     {
       "id": "107",
@@ -1117,8 +3000,24 @@
         "fighting"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
       "height": 14,
-      "weight": 502
+      "weight": 502,
+      "abilities": [
+        "keen-eye",
+        "iron-fist",
+        "inner-focus"
+      ],
+      "evolutions": [
+        {
+          "name": "tyrogue",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png"
+        },
+        {
+          "name": "hitmonlee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+        }
+      ]
     },
     {
       "id": "108",
@@ -1127,8 +3026,24 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
       "height": 12,
-      "weight": 655
+      "weight": 655,
+      "abilities": [
+        "own-tempo",
+        "oblivious",
+        "cloud-nine"
+      ],
+      "evolutions": [
+        {
+          "name": "lickitung",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+        },
+        {
+          "name": "lickilicky",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png"
+        }
+      ]
     },
     {
       "id": "109",
@@ -1137,8 +3052,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
       "height": 6,
-      "weight": 10
+      "weight": 10,
+      "abilities": [
+        "levitate",
+        "neutralizing-gas",
+        "stench"
+      ],
+      "evolutions": [
+        {
+          "name": "koffing",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+        },
+        {
+          "name": "weezing",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+        }
+      ]
     },
     {
       "id": "110",
@@ -1147,8 +3078,24 @@
         "poison"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
       "height": 12,
-      "weight": 95
+      "weight": 95,
+      "abilities": [
+        "levitate",
+        "neutralizing-gas",
+        "stench"
+      ],
+      "evolutions": [
+        {
+          "name": "koffing",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+        },
+        {
+          "name": "weezing",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+        }
+      ]
     },
     {
       "id": "111",
@@ -1158,8 +3105,28 @@
         "rock"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
       "height": 10,
-      "weight": 1150
+      "weight": 1150,
+      "abilities": [
+        "lightning-rod",
+        "rock-head",
+        "reckless"
+      ],
+      "evolutions": [
+        {
+          "name": "rhyhorn",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+        },
+        {
+          "name": "rhydon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+        },
+        {
+          "name": "rhyperior",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+        }
+      ]
     },
     {
       "id": "112",
@@ -1169,8 +3136,28 @@
         "rock"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
       "height": 19,
-      "weight": 1200
+      "weight": 1200,
+      "abilities": [
+        "lightning-rod",
+        "rock-head",
+        "reckless"
+      ],
+      "evolutions": [
+        {
+          "name": "rhyhorn",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+        },
+        {
+          "name": "rhydon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+        },
+        {
+          "name": "rhyperior",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+        }
+      ]
     },
     {
       "id": "113",
@@ -1179,8 +3166,28 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
       "height": 11,
-      "weight": 346
+      "weight": 346,
+      "abilities": [
+        "natural-cure",
+        "serene-grace",
+        "healer"
+      ],
+      "evolutions": [
+        {
+          "name": "happiny",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png"
+        },
+        {
+          "name": "chansey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+        },
+        {
+          "name": "blissey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+        }
+      ]
     },
     {
       "id": "114",
@@ -1189,8 +3196,24 @@
         "grass"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
       "height": 10,
-      "weight": 350
+      "weight": 350,
+      "abilities": [
+        "chlorophyll",
+        "leaf-guard",
+        "regenerator"
+      ],
+      "evolutions": [
+        {
+          "name": "tangela",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+        },
+        {
+          "name": "tangrowth",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png"
+        }
+      ]
     },
     {
       "id": "115",
@@ -1199,8 +3222,20 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
       "height": 22,
-      "weight": 800
+      "weight": 800,
+      "abilities": [
+        "early-bird",
+        "scrappy",
+        "inner-focus"
+      ],
+      "evolutions": [
+        {
+          "name": "kangaskhan",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
+        }
+      ]
     },
     {
       "id": "116",
@@ -1209,8 +3244,28 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
       "height": 4,
-      "weight": 80
+      "weight": 80,
+      "abilities": [
+        "swift-swim",
+        "sniper",
+        "damp"
+      ],
+      "evolutions": [
+        {
+          "name": "horsea",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+        },
+        {
+          "name": "seadra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+        },
+        {
+          "name": "kingdra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"
+        }
+      ]
     },
     {
       "id": "117",
@@ -1219,8 +3274,28 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
       "height": 12,
-      "weight": 250
+      "weight": 250,
+      "abilities": [
+        "poison-point",
+        "sniper",
+        "damp"
+      ],
+      "evolutions": [
+        {
+          "name": "horsea",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+        },
+        {
+          "name": "seadra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+        },
+        {
+          "name": "kingdra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"
+        }
+      ]
     },
     {
       "id": "118",
@@ -1229,8 +3304,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
       "height": 6,
-      "weight": 150
+      "weight": 150,
+      "abilities": [
+        "swift-swim",
+        "water-veil",
+        "lightning-rod"
+      ],
+      "evolutions": [
+        {
+          "name": "goldeen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+        },
+        {
+          "name": "seaking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+        }
+      ]
     },
     {
       "id": "119",
@@ -1239,8 +3330,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
       "height": 13,
-      "weight": 390
+      "weight": 390,
+      "abilities": [
+        "swift-swim",
+        "water-veil",
+        "lightning-rod"
+      ],
+      "evolutions": [
+        {
+          "name": "goldeen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+        },
+        {
+          "name": "seaking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+        }
+      ]
     },
     {
       "id": "120",
@@ -1249,8 +3356,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
       "height": 8,
-      "weight": 345
+      "weight": 345,
+      "abilities": [
+        "illuminate",
+        "natural-cure",
+        "analytic"
+      ],
+      "evolutions": [
+        {
+          "name": "staryu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+        },
+        {
+          "name": "starmie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+        }
+      ]
     },
     {
       "id": "121",
@@ -1260,8 +3383,24 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
       "height": 11,
-      "weight": 800
+      "weight": 800,
+      "abilities": [
+        "illuminate",
+        "natural-cure",
+        "analytic"
+      ],
+      "evolutions": [
+        {
+          "name": "staryu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+        },
+        {
+          "name": "starmie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+        }
+      ]
     },
     {
       "id": "122",
@@ -1271,8 +3410,28 @@
         "fairy"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
       "height": 13,
-      "weight": 545
+      "weight": 545,
+      "abilities": [
+        "soundproof",
+        "filter",
+        "technician"
+      ],
+      "evolutions": [
+        {
+          "name": "mime-jr",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png"
+        },
+        {
+          "name": "mr-mime",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
+        },
+        {
+          "name": "mr-rime",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png"
+        }
+      ]
     },
     {
       "id": "123",
@@ -1282,8 +3441,24 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
       "height": 15,
-      "weight": 560
+      "weight": 560,
+      "abilities": [
+        "swarm",
+        "technician",
+        "steadfast"
+      ],
+      "evolutions": [
+        {
+          "name": "scyther",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+        },
+        {
+          "name": "scizor",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
+        }
+      ]
     },
     {
       "id": "124",
@@ -1293,8 +3468,24 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
       "height": 14,
-      "weight": 406
+      "weight": 406,
+      "abilities": [
+        "oblivious",
+        "forewarn",
+        "dry-skin"
+      ],
+      "evolutions": [
+        {
+          "name": "smoochum",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png"
+        },
+        {
+          "name": "jynx",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
+        }
+      ]
     },
     {
       "id": "125",
@@ -1303,8 +3494,27 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
       "height": 11,
-      "weight": 300
+      "weight": 300,
+      "abilities": [
+        "static",
+        "vital-spirit"
+      ],
+      "evolutions": [
+        {
+          "name": "elekid",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png"
+        },
+        {
+          "name": "electabuzz",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
+        },
+        {
+          "name": "electivire",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png"
+        }
+      ]
     },
     {
       "id": "126",
@@ -1313,8 +3523,27 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
       "height": 13,
-      "weight": 445
+      "weight": 445,
+      "abilities": [
+        "flame-body",
+        "vital-spirit"
+      ],
+      "evolutions": [
+        {
+          "name": "magby",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png"
+        },
+        {
+          "name": "magmar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+        },
+        {
+          "name": "magmortar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"
+        }
+      ]
     },
     {
       "id": "127",
@@ -1323,8 +3552,20 @@
         "bug"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
       "height": 15,
-      "weight": 550
+      "weight": 550,
+      "abilities": [
+        "hyper-cutter",
+        "mold-breaker",
+        "moxie"
+      ],
+      "evolutions": [
+        {
+          "name": "pinsir",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+        }
+      ]
     },
     {
       "id": "128",
@@ -1333,8 +3574,20 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
       "height": 14,
-      "weight": 884
+      "weight": 884,
+      "abilities": [
+        "intimidate",
+        "anger-point",
+        "sheer-force"
+      ],
+      "evolutions": [
+        {
+          "name": "tauros",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+        }
+      ]
     },
     {
       "id": "129",
@@ -1343,8 +3596,23 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
       "height": 9,
-      "weight": 100
+      "weight": 100,
+      "abilities": [
+        "swift-swim",
+        "rattled"
+      ],
+      "evolutions": [
+        {
+          "name": "magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        },
+        {
+          "name": "gyarados",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+        }
+      ]
     },
     {
       "id": "130",
@@ -1354,8 +3622,23 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
       "height": 65,
-      "weight": 2350
+      "weight": 2350,
+      "abilities": [
+        "intimidate",
+        "moxie"
+      ],
+      "evolutions": [
+        {
+          "name": "magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        },
+        {
+          "name": "gyarados",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+        }
+      ]
     },
     {
       "id": "131",
@@ -1365,8 +3648,20 @@
         "ice"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
       "height": 25,
-      "weight": 2200
+      "weight": 2200,
+      "abilities": [
+        "water-absorb",
+        "shell-armor",
+        "hydration"
+      ],
+      "evolutions": [
+        {
+          "name": "lapras",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+        }
+      ]
     },
     {
       "id": "132",
@@ -1375,8 +3670,19 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
       "height": 3,
-      "weight": 40
+      "weight": 40,
+      "abilities": [
+        "limber",
+        "imposter"
+      ],
+      "evolutions": [
+        {
+          "name": "ditto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+        }
+      ]
     },
     {
       "id": "133",
@@ -1385,8 +3691,24 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
       "height": 3,
-      "weight": 65
+      "weight": 65,
+      "abilities": [
+        "run-away",
+        "adaptability",
+        "anticipation"
+      ],
+      "evolutions": [
+        {
+          "name": "eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        },
+        {
+          "name": "vaporeon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+        }
+      ]
     },
     {
       "id": "134",
@@ -1395,8 +3717,23 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
       "height": 10,
-      "weight": 290
+      "weight": 290,
+      "abilities": [
+        "water-absorb",
+        "hydration"
+      ],
+      "evolutions": [
+        {
+          "name": "eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        },
+        {
+          "name": "vaporeon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+        }
+      ]
     },
     {
       "id": "135",
@@ -1405,8 +3742,23 @@
         "electric"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
       "height": 8,
-      "weight": 245
+      "weight": 245,
+      "abilities": [
+        "volt-absorb",
+        "quick-feet"
+      ],
+      "evolutions": [
+        {
+          "name": "eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        },
+        {
+          "name": "vaporeon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+        }
+      ]
     },
     {
       "id": "136",
@@ -1415,8 +3767,23 @@
         "fire"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
       "height": 9,
-      "weight": 250
+      "weight": 250,
+      "abilities": [
+        "flash-fire",
+        "guts"
+      ],
+      "evolutions": [
+        {
+          "name": "eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        },
+        {
+          "name": "vaporeon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+        }
+      ]
     },
     {
       "id": "137",
@@ -1425,8 +3792,28 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
       "height": 8,
-      "weight": 365
+      "weight": 365,
+      "abilities": [
+        "trace",
+        "download",
+        "analytic"
+      ],
+      "evolutions": [
+        {
+          "name": "porygon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
+        },
+        {
+          "name": "porygon2",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
+        },
+        {
+          "name": "porygon-z",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png"
+        }
+      ]
     },
     {
       "id": "138",
@@ -1436,8 +3823,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
       "height": 4,
-      "weight": 75
+      "weight": 75,
+      "abilities": [
+        "swift-swim",
+        "shell-armor",
+        "weak-armor"
+      ],
+      "evolutions": [
+        {
+          "name": "omanyte",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+        },
+        {
+          "name": "omastar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+        }
+      ]
     },
     {
       "id": "139",
@@ -1447,8 +3850,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
       "height": 10,
-      "weight": 350
+      "weight": 350,
+      "abilities": [
+        "swift-swim",
+        "shell-armor",
+        "weak-armor"
+      ],
+      "evolutions": [
+        {
+          "name": "omanyte",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+        },
+        {
+          "name": "omastar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+        }
+      ]
     },
     {
       "id": "140",
@@ -1458,8 +3877,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
       "height": 5,
-      "weight": 115
+      "weight": 115,
+      "abilities": [
+        "swift-swim",
+        "battle-armor",
+        "weak-armor"
+      ],
+      "evolutions": [
+        {
+          "name": "kabuto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
+        },
+        {
+          "name": "kabutops",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
+        }
+      ]
     },
     {
       "id": "141",
@@ -1469,8 +3904,24 @@
         "water"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
       "height": 13,
-      "weight": 405
+      "weight": 405,
+      "abilities": [
+        "swift-swim",
+        "battle-armor",
+        "weak-armor"
+      ],
+      "evolutions": [
+        {
+          "name": "kabuto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
+        },
+        {
+          "name": "kabutops",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
+        }
+      ]
     },
     {
       "id": "142",
@@ -1480,8 +3931,20 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
       "height": 18,
-      "weight": 590
+      "weight": 590,
+      "abilities": [
+        "rock-head",
+        "pressure",
+        "unnerve"
+      ],
+      "evolutions": [
+        {
+          "name": "aerodactyl",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
+        }
+      ]
     },
     {
       "id": "143",
@@ -1490,8 +3953,24 @@
         "normal"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
       "height": 21,
-      "weight": 4600
+      "weight": 4600,
+      "abilities": [
+        "immunity",
+        "thick-fat",
+        "gluttony"
+      ],
+      "evolutions": [
+        {
+          "name": "munchlax",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png"
+        },
+        {
+          "name": "snorlax",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+        }
+      ]
     },
     {
       "id": "144",
@@ -1501,8 +3980,19 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
       "height": 17,
-      "weight": 554
+      "weight": 554,
+      "abilities": [
+        "pressure",
+        "snow-cloak"
+      ],
+      "evolutions": [
+        {
+          "name": "articuno",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
+        }
+      ]
     },
     {
       "id": "145",
@@ -1512,8 +4002,19 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
       "height": 16,
-      "weight": 526
+      "weight": 526,
+      "abilities": [
+        "pressure",
+        "static"
+      ],
+      "evolutions": [
+        {
+          "name": "zapdos",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+        }
+      ]
     },
     {
       "id": "146",
@@ -1523,8 +4024,19 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
       "height": 20,
-      "weight": 600
+      "weight": 600,
+      "abilities": [
+        "pressure",
+        "flame-body"
+      ],
+      "evolutions": [
+        {
+          "name": "moltres",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+        }
+      ]
     },
     {
       "id": "147",
@@ -1533,8 +4045,27 @@
         "dragon"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
       "height": 18,
-      "weight": 33
+      "weight": 33,
+      "abilities": [
+        "shed-skin",
+        "marvel-scale"
+      ],
+      "evolutions": [
+        {
+          "name": "dratini",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+        },
+        {
+          "name": "dragonair",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+        },
+        {
+          "name": "dragonite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+        }
+      ]
     },
     {
       "id": "148",
@@ -1543,8 +4074,27 @@
         "dragon"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
       "height": 40,
-      "weight": 165
+      "weight": 165,
+      "abilities": [
+        "shed-skin",
+        "marvel-scale"
+      ],
+      "evolutions": [
+        {
+          "name": "dratini",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+        },
+        {
+          "name": "dragonair",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+        },
+        {
+          "name": "dragonite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+        }
+      ]
     },
     {
       "id": "149",
@@ -1554,8 +4104,27 @@
         "flying"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
       "height": 22,
-      "weight": 2100
+      "weight": 2100,
+      "abilities": [
+        "inner-focus",
+        "multiscale"
+      ],
+      "evolutions": [
+        {
+          "name": "dratini",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+        },
+        {
+          "name": "dragonair",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+        },
+        {
+          "name": "dragonite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+        }
+      ]
     },
     {
       "id": "150",
@@ -1564,8 +4133,19 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
       "height": 20,
-      "weight": 1220
+      "weight": 1220,
+      "abilities": [
+        "pressure",
+        "unnerve"
+      ],
+      "evolutions": [
+        {
+          "name": "mewtwo",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+        }
+      ]
     },
     {
       "id": "151",
@@ -1574,8 +4154,18 @@
         "psychic"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+      "largeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
       "height": 4,
-      "weight": 40
+      "weight": 40,
+      "abilities": [
+        "synchronize"
+      ],
+      "evolutions": [
+        {
+          "name": "mew",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
+        }
+      ]
     }
   ]
 }
