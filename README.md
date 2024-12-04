@@ -2,7 +2,6 @@
 #### Uma aplicação web para explorar e aprender mais sobre os Pokémons, utilizando a PokéAPI. Este projeto foi desenvolvido com React, estilizado com TailwindCSS e utiliza JavaScript para sua lógica principal.
 
 ## Funcionalidades
-    🔍 Pesquisa de Pokémons: Busque por Pokémons pelo nome ou número.
     📖 Detalhes do Pokémon: Exibição de informações detalhadas, como tipo, habilidades e estatísticas.
     📜 Lista Paginal: Navegue por uma lista de todos os Pokémons disponíveis.
     📱 Design Responsivo: Totalmente otimizado para dispositivos móveis e desktops.
@@ -12,7 +11,7 @@
     React
     TailwindCSS
     JavaScript
-    PokéAPI
+    JSON Server
 
 ## Pré-requisitos
     Certifique-se de ter instalado:
@@ -27,3 +26,14 @@
     npm install 
     ou
     npm i
+
+## Adicionando Mais Pokémon à Lista:
+    Se você deseja adicionar mais Pokémon à lista, siga os passos abaixo:
+    1. Abra o arquivo populateDb.js.
+    2. Localize a linha que contém a constante pokemonIds.
+    3. Altere a definição de pokemonIds para incluir os IDs dos Pokémon que você deseja adicionar.
+
+    Por exemplo, para adicionar até o ID 300, substitua a linha original por:
+    const pokemonIds = Array.from({ length: 300 }, (_, index) => index + 1);
+    
+    Isso irá gerar uma lista de IDs de Pokémon de 1 a 300.
