@@ -149,15 +149,6 @@ const DetailsPage = () => {
                             </ul>
                         </div>
                     </div>
-
-                    <div className="text-center pt-5">
-                        <a
-                            onClick={handleGoBack}
-                            className="text-blue-500 hover:underline"
-                        >
-                            Go Back
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
