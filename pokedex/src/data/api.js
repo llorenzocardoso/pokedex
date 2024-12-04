@@ -1,25 +1,64 @@
-const API_BASE_URL = 'https://pokeapi.co/api/v2';
+const API_URL = 'http://localhost:3000/pokemons';
 
-export const fetchPokemonList = async (limit = 151) => {
-    const response = await fetch(`${API_BASE_URL}/pokemon?limit=${limit}`);
-    const data = await response.json();
-    return data.results;
+export const getPokemons = async () => {
+    try {
+        const response = await fetch(API_URL);
+        if (!response.ok) throw new Error(`Erro ao buscar Pokémons: ${response.statusText}`);
+
+        const pokemons = await response.json();
+        return pokemons.sort((a, b) => a.id - b.id);
+    } catch (error) {
+        throw new Error(error.message || 'Erro desconhecido ao buscar Pokémons');
+    }
 };
 
-export const fetchPokemonDetails = async (url) => {
-    const response = await fetch(url);
-    return await response.json();
-};
+export const addPokemon = async (pokemon) => {
+    const { id, name, types, sprite, height, weight, abilities, evolutions, largeImage } = pokemon;
 
-export const getWeaknessesFromType = async (types) => {
-    const weaknessesSet = new Set();
-
-    for (const type of types) {
-        const typeName = type.type.name;
-        const typeData = await fetch(`https://pokeapi.co/api/v2/type/${typeName}`).then(res => res.json());
-        const weakTypes = typeData.damage_relations.double_damage_from;
-        weakTypes.forEach(weakness => weaknessesSet.add(weakness.name));
+    if (!id || !name || !types || !sprite || !height || !weight || !abilities || !evolutions || !largeImage) {
+        throw new Error('Dados incompletos para adicionar um Pokémon');
     }
 
-    return [...weaknessesSet];
+    try {
+        const response = await fetch(API_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(pokemon),
+        });
+
+        if (!response.ok) throw new Error(`Erro ao adicionar Pokémon: ${response.statusText}`);
+    } catch (error) {
+        throw new Error(error.message || 'Erro desconhecido ao adicionar Pokémon');
+    }
+};
+
+export const editPokemon = async (id, pokemon) => {
+    const { name, types, sprite, height, weight, abilities, evolutions, largeImage } = pokemon;
+
+    if (!name || !types || !sprite || !height || !weight || !abilities || !evolutions || !largeImage) {
+        throw new Error('Dados incompletos para editar o Pokémon');
+    }
+
+    try {
+        const response = await fetch(`${API_URL}/${id}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(pokemon),
+        });
+
+        if (!response.ok) throw new Error(`Erro ao editar Pokémon: ${response.statusText}`);
+    } catch (error) {
+        throw new Error(error.message || 'Erro desconhecido ao editar Pokémon');
+    }
+};
+
+
+export const deletePokemon = async (id) => {
+    try {
+        const response = await fetch(`${API_URL}/${id}`, { method: 'DELETE' });
+
+        if (!response.ok) throw new Error(`Erro ao deletar Pokémon: ${response.statusText}`);
+    } catch (error) {
+        throw new Error(error.message || 'Erro desconhecido ao deletar Pokémon');
+    }
 };
